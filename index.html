@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Game Mania</title>
+    <meta name="viewport" content="width=device-width, inicial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/jquery-3.6.1.min.js" defer></script>
+    <script src="js/gamemania.js" defer></script>
+    <script src="js/jquery-3.6.1.min.js" defer></script>
+</head>
+
+<body>
+
+<!-- Início do cabeçalho-->
+    <header>
+    <div class="container-grid cabecalho">
+        <a href="Index.html">
+        <img src="img/Logo.png" alt="Logo da página game mania">
+        </a>
+        
+        <input type="text" id="txtBusca" placeholder="Buscar..."/>
+
+        <div class="login">
+              <a href="login.html"><img src="img/user.png" alt="Imagem da silhueta de uma pessoa, precedido do botão login"></a>
+              <img id="carrinho" src="img/Carrinho.png" alt="Imagem de um carrinho de compras - Botão Minhas Compras">
+              <a onclick="mostrarMenu()" href="#" id="barras"><img src="img/Menu.png" alt="Menu de hambúguer clique para abrir o menu"></a>  
+
+        </div>
+
+    </div> 
+    </header>
+<!-- Fim do cabeçalho-->
+
+<!-- Início do Menu-->
+    <section id="menu" class="menu">
+            <div>
+                <nav class="container alig-items-center justify-content-between atalho">
+                <a>PC</a>
+                <a>Console</a>
+                <a>Periféricos</a>
+                <a>Jogos</a>
+                <a>Monte seu PC</a>
+                <a>Contato</a>
+                </nav>
+            </div>
+    </section>
+<!-- Fim do menu-->
+<section id="menu2" class="menu2">
+    <div>
+        <input type="text" id="txtBusca2" placeholder="Buscar..."/>
+    </div>
+</section>
+<section >
+    <div id="menu3" class="container menu3">
+        <nav>
+        <a>PC</a> <br>
+        <a>Console</a> <br>
+        <a>Periféricos</a> <br>
+        <a>Jogos</a> <br>
+        <a>Monte seu PC</a> <br>
+        <a>Contato</a> <br>
+        </nav>
+    </div>
+</section>
+
+<!-- Início do Banner-->
+    <section id="carrosselIndex" class="banner-pc1 efeitos">
+        <div class="container sloganbanner">
+           
+                <div id="conteudobanner" class="conteudobanner1">
+                    <h1> A chance de você ter seu</h1>
+                    <h1>setup gamer é agora!</h1>
+                    <h1>Conheça nossas ofertas!</h1>
+                    <a>Compre agora!</a>
+                </div>
+          
+        </div>
+    </section>
+<!-- Fim do Banner-->
+
+    <section>
+        <!--Usando o bootstrap na section acima-->
+        <div id="infopagamento" class="infopagamento">
+            <div class="container d-flex justify-content-between align-content-center ">
+                <div class="pagamentoseguro">
+                    <img src="img/escudo 1.png" alt="Pagamento Seguro">
+                    <p>Pagamento seguro!</p>
+                </div>
+    
+                <div class="entrega">
+                    <img src="img/caminhao-de-entrega 1.png" alt="Entrega rápida para todo país">
+                    <p>Entrega para todo o país!</p>
+                </div>
+    
+                <div class="parcela">
+                    <img src="img/credit-card 1.png" alt="Parcelas em até 12 vezes sem juros">
+                    <p>Parcelas até 12 vezes sem juros!</p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <section id="sejagamer" class="bannerinformativo">
+        <div class="container-grid conteudoinformativo">
+            <div class="sejagamer">
+                <p>SEJA GAMER!</p>
+            </div>
+            <img class="imguriel" src="img/imgbannerinformativo.png" alt="Imagem de uma pessoa jogando no óculos VR">
+            <div class="textosejagamer">
+              <p> 
+                Venha você também entrar no mundo mágico dos games! Oferecemos uma alta gama de periféricos para seu computador, tornando você mais competitivo em seus jogos!
+                <br> Não tem um computador potente o suficiente para jogar? Não tem o console do momento? Não tem problema! Aqui na Game Mania temos todas as peças para aprimorar seu computador e todos os consoles de última geração, fazendo com que você consiga jogar o que quiser!
+                <br> Se não sabe como aprimorar seu computador está tudo bem, temos a possibilidade de montar o seu PC!
+              </p>
+            </div>
+            <div class="botaosejagamer">
+                <a>TORNAR-SE GAMER!</a>
+            </div>
+        </div>  
+    </section>
+    <section class="background">
+        <div class="container-grid retangulo">
+            <div class="titulo">
+                <p>
+                    PRODUTOS DE ÚLTIMA GERAÇÃO!
+                </p>
+            </div>
+            <div class="ofertasprodutos">
+                <img src="img/seta-direita 2.png" alt="seta direcionada para direita">
+                <div class="produto1">
+                    <div class="imgproduto1">
+                        <img class="imgproduto1" src="img/Xbox-series-x 1.png" alt="Console do Xbox Series X">
+                        <p>
+                        Xbox Series X, 1 Tb
+                        <br> 
+                        com controle. 
+                        <br>
+                        <br>
+                        R$ 3.000,00
+                        </p>
+                        
+                        <div class="botaocompreagora">
+                            <a>COMPRE AGORA!</a>
+                        </div>
+                    </div>
+    
+    
+                </div>
+                
+                <div class="produto2">
+                    <div class="imgproduto2">
+                        <img class="imgproduto2" src="img/Console-Playstation-5 1.png" alt="Console Playstation 5">
+                        <div>
+                        <p>
+                            Playstaton 5, 856 Tb
+                        <br> 
+                        com controle. 
+                        <br>
+                        <br>
+                        R$ 4.000,00
+                        </p>
+                        </div>
+                        
+                        <div class="botaocompreagora2">
+                            <a>COMPRE AGORA!</a>
+                        </div>
+                    </div>
+    
+    
+    
+                </div> 
+    
+                <div class="produto3">
+                    <div>
+                        <img class="imgproduto3" src="img/playstation-5-controle.png" alt="Controle do playstation 5">
+                        <p>
+                        Playstation 5 - Controle                   
+                        <br> 
+                        <br>
+                        <br>
+                        R$ 300,00
+                        </p>
+                        
+                        <div class="botaocompreagora3">
+                            <a>COMPRE AGORA!</a>
+                        </div>
+                        </div>
+                    </div>
+                    <img src="img/seta-direita 1.png" alt="Seta direcionada para esquerda">
+    
+                </div>     
+            </div>
+        </div>
+    </section>
+
+
+    <section class="background2">
+        <div class="container rodape">
+            <div class="institucional">
+                <div>
+                    <h1>Institucional </h1>
+                    <p>
+                      <br>
+                      Política de Cookies 
+                      <br><br>
+                      Termos e condições 
+                      <br><br>
+                      Sobre a Game Mania 
+                      <br><br>
+                      Politica de privacidade 
+                      <br><br>
+                    </p>
+                    
+                </div>
+                
+            </div>
+            <div class="atendimento">
+                <div>
+                    <h1> Atendimento </h1>
+                    <p>
+                        <br>
+                        Endereço: Rua Santo Vígílio, 124, Centro, Rio de Janeiro,<br> CEP:29346-987 <br><br>
+                        SAC: (53) 0800 3924329 <br><br>
+                        FAQ-Orientações <br><br>
+                        Email: gamemania@gamers.com <br><br>
+                    </p> 
+                </div>
+            </div>
+            <div class="redessociais">
+
+                <div>
+                    <div>
+                        <h1>Redes Sociais</h1>
+                    </div>
+                    <div class="logoredes"> 
+                        <img src="img/facebook 1.png" alt="Logo do facebook.">
+                        <img src="img/instagram 1.png" alt="Logo do instagram">
+                        <img src="img/linkedin 1.png" alt="Logo do Linkedin">
+                        <img src="img/whatsapp 1.png" alt="Logo do whatsapp">
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
