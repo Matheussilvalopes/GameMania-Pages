@@ -217,7 +217,7 @@ header{
 /*configuração seção SEJAGAMER*/
 .bannerinformativo{
    height: 859px;
-   background-image: url(Img/backgoundinformativo.png) ;
+   background-image: url(img/backgoundinformativo.png) ;
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
